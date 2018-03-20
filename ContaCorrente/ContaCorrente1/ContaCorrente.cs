@@ -52,10 +52,12 @@ namespace CaixaEletronico
         {
             return _saldo;
         }
+
         public List<Movimentacao> EmitirExtrato()
         {
             return movimentacoes;
         }
+
         public double Transferencia(ContaCorrente contaSaque, ContaCorrente contaDeposita, double valor)
         {
             double dinheiro;
@@ -73,6 +75,7 @@ namespace CaixaEletronico
             _limite = limite;
             _saldo = saldo;
         }
+
         public ContaCorrente()
         {
             _Id = 0;
@@ -81,7 +84,7 @@ namespace CaixaEletronico
 
         public override string ToString()
         {
-            return string.Format("Número: {0} - Saldo: {1}", this._numero, this._saldo);
+            return string.Format("Número: {0} - Saldo: {1} - Limite: {2}", this._numero, this._saldo,this._limite);
         }
 
     }

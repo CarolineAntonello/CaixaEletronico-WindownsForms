@@ -17,6 +17,5 @@ namespace CaixaEletronico.Dominio
         {
             return string.Format("Nome: {0} - CPF: {1}", _nome,_cpf);
         }
-
     }
 }

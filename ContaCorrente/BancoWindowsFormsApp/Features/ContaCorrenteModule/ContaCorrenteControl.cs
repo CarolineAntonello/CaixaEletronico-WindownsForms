@@ -10,6 +10,7 @@ namespace BancoWindowsFormsApp.Features.ContaCorrenteModule
         {
             InitializeComponent();
         }
+
         public void PopularListagemContasCorrentes(List<ContaCorrente> contas)
         {
             listContasCorrentes.Items.Clear();
