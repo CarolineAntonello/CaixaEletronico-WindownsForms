@@ -26,7 +26,6 @@ namespace BancoWindowsFormsApp
 
             var valor = Double.Parse(txtValor.Text);
 
-
             return valor;
         }
 
